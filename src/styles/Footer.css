@@ -1,0 +1,44 @@
+.foot{
+    margin-top: 5em;
+    background-color: #010000;
+    height: 25em;  
+}
+
+.footCon{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list h1,h2{
+    text-transform: uppercase;
+    margin: 0%;
+}
+
+.list li{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0%;
+    padding: 0.5em;
+}
+
+.iconsCon{
+    width: 90%;
+    margin: 20px auto;
+    border-top: solid 1px white;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px auto;
+
+}

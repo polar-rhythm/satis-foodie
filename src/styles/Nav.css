@@ -1,0 +1,58 @@
+.top{
+    display: flex;
+    justify-content: space-around;
+    background-color: #427bb0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a{
+    /* padding: 2em; */
+    margin: 2em;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.links a:hover{
+    text-decoration: underline #ffffff solid 2px ;
+}
+
+.links a:active{
+    font-size: 110%;
+}
+
+.orders{
+    margin: 2em;
+    width: fit-content;
+    border: 0em;
+    
+}
+
+.orders:active{
+    background-color: #ffffff;
+}
+
+.orders button{
+    border: 0cm;
+    font-size: 1em;
+    color: #427bb0;
+    width: 7em;
+    height: 2em;
+    border-radius: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
