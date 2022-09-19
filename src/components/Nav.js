@@ -1,7 +1,11 @@
 import React from 'react'
+import{useNavigate} from 'react-router-dom'
 import '../styles/Nav.css'
 
 const Nav = () => {
+
+  let product =useNavigate();
+
   return (
     <div className = 'top'>
         <div className='logo'>

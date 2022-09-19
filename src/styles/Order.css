@@ -1,0 +1,35 @@
+.displayOrder{
+    margin: 40px auto;
+    margin-top: 10em;
+    width: 50%;
+    height: 70vh;
+    border: 2px solid black;
+    box-shadow: 2px 5px 5px 1px;
+}
+
+.upp{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.down{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top: 1px solid black;
+}
+
+.down button{
+    margin: 1em;
+    width: 100px;
+    height: 35px;
+    border-radius: 14px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: #427bb0;
+    border: 0;
+}

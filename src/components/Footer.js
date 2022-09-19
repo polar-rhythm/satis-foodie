@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        you can visit our other websites at
+        you can visit our other websites at <a href="https://jtowngroove.com"> www.jtowngroove.com</a>
       </div>
     </div>
   )
